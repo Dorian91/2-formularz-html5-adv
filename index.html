@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz biblioteka</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <h1>Formularz</h1>
+   <h3>Dane wymagane</h3>
+   
+   <form action="https://formspree.io/nadolnydorian@gmail.com"
+      method="POST">
+   <fieldset class="klient">
+    <legend class="legenda-klient">Informacje kliencie</legend>
+       
+        <label for="Imię" class="imie-etykieta">Imię</label>
+        <input type="text" name="Imię" class="imie-box" id="Imię" placeholder="Imię" autofocus autocomplete="on" required>
+        
+        <label for="Telefon" class="telefon-etykieta">Telefon</label>
+        <input type="text" name="Telefon" class="telefon-box" id="Telefon" placeholder="0-000-000-0000" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="14" autocomplete="on" required>
+        
+        <label for="E-mail" class="email-etykieta">Adres E-mail</label>
+        <input type="email" name="E-mail" class="email-box" id="E-mail" placeholder="E-Mail" autocomplete="on" multiple required>
+    </fieldset>
+    
+    <fieldset class="ksiazki">
+        <legend class="legenda-ksiazki">Książki</legend>
+        <input list="Książki" name="Książki" class="ksiazki-box">
+        <datalist id="Książki">
+            <option value="Ostatnie życzenie">
+            <option value="Miecz przeznaczenia">
+            <option value="Krew Elfów">
+            <option value="Chrzest ognia">
+            <option value="Czas pogardy">
+        </datalist>
+        <label for="Ilość" class="ilosc-etykieta">Ilość (Maksimum 5 sztuk)</label>
+        <input type="number" name="Ilość sztuk" class="ilosc-wybor" id="Ilość" min="1" max="5">
+    </fieldset>
+    <input type="submit" value="Przelij" class="przycisk">
+    </form> 
+    
+</body>
+</html>

@@ -1,0 +1,119 @@
+body
+{
+    background-color: #207BFF;
+}
+
+h1
+{
+    color:#0D077F;
+}
+
+h3
+{
+    color:#1C3599;
+}
+
+.klient
+{
+    height:100px;
+    width:400px;
+    position:relative;
+    background-color: #6CA8FF;
+    border: solid 1px #10287F;
+}
+
+.legenda-klient
+{
+    color:#10287F;
+}
+
+.imie-etykieta
+{
+    position:absolute;
+    top:28px;
+    left:40px;
+    color:#10287F;
+}
+
+.telefon-etykieta
+{
+    position:absolute;
+    top:56px;
+    left:40px;
+    color:#10287F;
+}
+
+.email-etykieta
+{
+    position:absolute;
+    top:84px;
+    left:40px;
+    color:#10287F;
+}
+
+.imie-box
+{
+    position:absolute;
+    top:28px;
+    left:150px;
+}
+
+.telefon-box
+{
+    position:absolute;
+    top:56px;
+    left:150px
+}
+
+.email-box
+{
+    position:absolute;
+    top:84px;
+    left:150px;
+}
+
+
+
+
+.ksiazki
+{
+    height:50px;
+    width:400px;
+    position:relative;
+    background-color: #6CA8FF;
+    border: solid 1px #10287F;
+}
+
+.legenda-ksiazki
+{
+    color:#10287F;
+}
+
+.ksiazki-box
+{
+    position:absolute;
+    left:40px;
+    top:30px;
+}
+
+.ilosc-etykieta
+{
+    position:absolute;
+    left:180px;
+    top:30px;
+    color:#10287F;
+}
+
+.ilosc-wybor
+{
+    position:absolute;
+    top:30px;
+    right:40px;
+}
+
+.przycisk
+{
+    left:3px;
+    top: 10px;
+    position: relative;
+}
